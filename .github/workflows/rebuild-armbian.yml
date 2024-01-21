@@ -275,6 +275,7 @@ jobs:
           kernel_usage: ${{ inputs.kernel_usage }}
           armbian_fstype: ${{ inputs.armbian_fstype }}
           builder_name: ${{ inputs.builder_name }}
+          armbian_size: 6400
 
       - name: Upload Armbian image to Release
         uses: ncipollo/release-action@main
